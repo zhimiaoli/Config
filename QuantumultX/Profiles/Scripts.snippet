@@ -4,7 +4,7 @@ hostname = link.zhihu.com, *.intsig.net, ios.prod.ftl.netflix.com, app.xunjiepdf
 ^https?:\/\/m.poco\.cn/* url 302 https://www.poco.cn/$1
 
 # > Unlock Revenuecat
-^https?:\/\/api\.revenuecat\.com url script-request-body https://hub.nange.cn/Script/RevenueCat/RevenueCat.js
+#^https?:\/\/api\.revenuecat\.com url script-request-body https://hub.nange.cn/Script/RevenueCat/RevenueCat.js
 
 # > 微信自动阅读
 ^https?://mp\.weixin\.qq\.com/s.+? url response-body "</script>" response-body "setTimeout(()=>window.history.back(),6000); </script>"
